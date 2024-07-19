@@ -1,0 +1,134 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa; /* Fondo suave color aqua */
+    margin: 0;
+    padding: 0;
+}
+
+.container, .formularioProductos {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #004d40; /* Color verde oscuro */
+}
+
+#contenedorProductos {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #ffffff; /* Fondo blanco para el contenedor de productos */
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.product-card {
+    background-color: #f1f8e9; /* Color de fondo suave verde limón */
+    border: 2px solid #c6ff00; /* Borde amarillo neón */
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    transition: transform 0.3s ease; /* Transición para el efecto hover */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+.product-card p {
+    margin: 5px 0;
+    color: #00796b; /* Color verde más oscuro para el texto */
+}
+
+.delete-button {
+    background-color: #d32f2f; /* Color rojo intenso para el botón de eliminar */
+    color: #ffffff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #c62828; /* Rojo más oscuro al pasar el mouse */
+}
+
+.product-list {
+    list-style: none;
+    padding: 0;
+}
+
+.product-item {
+    background-color: #e8f5e9; /* Color de fondo suave verde claro */
+    border: 1px solid #a5d6a7; /* Borde verde claro */
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.product-item p {
+    margin: 6px 0;
+    color: #004d40; /* Color verde oscuro para el texto */
+}
+
+/* Estilo para el mensaje cuando no hay productos */
+.product-list .product-item:first-child {
+    color: #616161; /* Color gris oscuro para el texto */
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #004d40; /* Color verde oscuro para las etiquetas */
+}
+
+.input, .select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #b2dfdb; /* Borde verde claro */
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #b2dfdb; /* Borde verde claro */
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: #0288d1; /* Azul brillante para el botón */
+    color: #ffffff;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0277bd; /* Azul más oscuro al pasar el mouse */
+}

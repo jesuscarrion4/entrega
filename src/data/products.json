@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Café Espresso",
+    "description": "Café espresso intenso y aromático",
+    "price": "1000",
+    "thumbnails": "sin imagen",
+    "code": "c123",
+    "stock": "15",
+    "category": "Bebidas",
+    "status": true
+  },
+  {
+    "title": "Café Americano",
+    "description": "Café americano suave y ligero",
+    "price": "1200",
+    "thumbnails": "sin imagen",
+    "code": "c124",
+    "stock": "25",
+    "category": "Bebidas",
+    "status": true
+  },
+  {
+    "title": "Café Latte",
+    "description": "Café latte cremoso con leche",
+    "price": "2000",
+    "thumbnails": "sin imagen",
+    "code": "c125",
+    "stock": "10",
+    "category": "Bebidas",
+    "status": true
+  },
+  {
+    "title": "Café Mocha",
+    "description": "Café mocha con chocolate",
+    "price": "1100",
+    "thumbnails": "sin imagen",
+    "code": "c126",
+    "stock": "15",
+    "category": "Bebidas",
+    "status": true
+  },
+  {
+    "title": "Café Cappuccino",
+    "description": "Café cappuccino con espuma de leche",
+    "price": "1800",
+    "thumbnails": "sin imagen",
+    "code": "c127",
+    "stock": "5",
+    "category": "Bebidas",
+    "status": true
+  },
+  {
+    "title": "Café Descafeinado",
+    "description": "Café descafeinado suave",
+    "price": "1500",
+    "thumbnails": "sin imagen",
+    "code": "c128",
+    "stock": "10",
+    "category": "Bebidas",
+    "status": true
+  },
+  {
+    "title": "Café Macchiato",
+    "description": "Café macchiato con un toque de leche",
+    "price": "2000",
+    "thumbnails": "sin imagen",
+    "code": "c129",
+    "stock": "10",
+    "category": "Bebidas",
+    "status": true
+  },
+  {
+    "title": "Café Affogato",
+    "description": "Café affogato con helado de vainilla",
+    "price": "1750",
+    "thumbnails": "sin imagen",
+    "code": "c130",
+    "stock": "5",
+    "category": "Bebidas",
+    "status": true
+  },
+  {
+    "title": "Café Irish",
+    "description": "Café irlandés con whisky",
+    "price": "1100",
+    "thumbnails": "sin imagen",
+    "code": "c131",
+    "stock": "9",
+    "category": "Bebidas",
+    "status": true
+  },
+  {
+    "title": "Café Cortado",
+    "description": "Café cortado con leche",
+    "price": "500",
+    "thumbnails": "sin imagen",
+    "code": "c132",
+    "stock": "14",
+    "category": "Bebidas",
+    "status": true
+  },
+  {
+    "title": "Café Vienés",
+    "description": "Café vienés con crema batida",
+    "price": "1800",
+    "thumbnails": "sin imagen",
+    "code": "c133",
+    "stock": "18",
+    "category": "Bebidas",
+    "status": true
+  }
+]
