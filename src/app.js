@@ -6,7 +6,7 @@ import cartsRouter from "./routes/carts.js";
 import viewsRouter from "./routes/views.js";
 import ProductManager from "./dao/fs/products-manager.js";
 import "./database.js";
-//import displayRoutes from "express-routemap";
+import displayRoutes from "express-routemap";
 
 // Inicialización de la aplicación
 const app = express();
@@ -34,7 +34,7 @@ app.use("/", viewsRouter);
 
 // Inicialización del servidor HTTP
 const httpServer = app.listen(PUERTO, () => {
-    //displayRoutes(app);
+    displayRoutes(app);
     console.log(`El servidor está en el puerto ${PUERTO}`);
 });
 
